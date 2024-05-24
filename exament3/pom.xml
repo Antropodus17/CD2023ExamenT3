@@ -21,11 +21,11 @@
 
   <dependencies>
     <dependency>
-			<groupId>org.junit.jupiter</groupId>
-			<artifactId>junit-jupiter-api</artifactId>
-			<version>5.11.0-M1</version>
-			<scope>test</scope>
-		</dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.11.0-M1</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
   <build>
@@ -59,6 +59,15 @@
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
+          <configuration>
+            <archive>
+              <manifest>
+                <mainClass>
+                  examencd.local.App
+                </mainClass>
+              </manifest>
+            </archive>
+          </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>

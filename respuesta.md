@@ -28,3 +28,36 @@ mvn test
 ```
 El resultado se aloja en el e2.png dentro del directorio img
 
+## Ejercicio 3
+
+Crear la clase App y realizar lo pedido en el metodo main.
+
+Ir al pom.xml y dentro de la dependencia del jar configurar la clase a iniciar mediant la siguiente estructura de etiquetas.
+```xml
+<configuration>
+    <archive>
+        <manifest>
+            <mainClass>
+                {paquete.Clase}
+            </mainClass>
+        </manifest>
+    </archive>
+</configuration>
+```
+
+Una vez configurado procedo a crear el jar.
+```bash
+ cd //proyecto
+
+ mvn package
+```
+
+Esto creará el .jar en `//proyecto/target`
+
+Para ejecutarlo y probar si funciona, ejecutamos lo siguient.
+
+```bash
+cd //proyecto/target
+
+java -jar {nombreJar}.jar
+```
