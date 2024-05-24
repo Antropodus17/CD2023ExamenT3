@@ -7,7 +7,7 @@ Coloqué la clase CunetaBancaria.java dentro del proyecto de maven en `//proyect
 Inserté un comentario de javadoc antes de cada método, atributo, clase y paquete para luego ejecutar los siguientes comandos.
 
 ```bash
- cd /rutadel proyecto
+ cd //proyecto
 
  mvn compile
  mvn javadoc:javadoc
@@ -22,5 +22,9 @@ Revisé que estuvieran las pruebas definidas y que tuviesen sentido
 
 Ejecute los siguientes comandos.
 ```bash
+cd //proyecto
 
+mvn test
 ```
+El resultado se aloja en el e2.png dentro del directorio img
+
