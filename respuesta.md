@@ -2,7 +2,9 @@
 
 ## Ejercicio 1 
 
-Inserté un comentario de javadoc antes de cada método, atributo, clase y paquete para luego ejecutar los siguientes comandos dentro del proyecto.
+Coloqué la clase CunetaBancaria.java dentro del proyecto de maven en `//proyecto/main/java/examencd.local`
+
+Inserté un comentario de javadoc antes de cada método, atributo, clase y paquete para luego ejecutar los siguientes comandos.
 
 ```bash
  cd /rutadel proyecto
@@ -13,3 +15,12 @@ Inserté un comentario de javadoc antes de cada método, atributo, clase y paque
 La documentación se aloja en `//proyecto/target/site/apidocs`
 
 ## Ejercicio 2
+
+Coloqué la clase CunetaBancariaTest.java dentro del proyecto de maven en `//proyecto/test/java/examencd.local`
+
+Revisé que estuvieran las pruebas definidas y que tuviesen sentido
+
+Ejecute los siguientes comandos.
+```bash
+
+```
